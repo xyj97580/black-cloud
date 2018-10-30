@@ -88,10 +88,16 @@
 				<overwrite>true</overwrite>
 			</configuration>
 			<dependencies>
-				<dependency>
+				<!--<dependency>
 					<groupId>com.softwareloop</groupId>
 					<artifactId>mybatis-generator-lombok-plugin</artifactId>
 					<version>1.0</version>
+				</dependency>-->
+				<!--由mybatis3-generator-plugin修改而来，增加部分功能，比如支持@Builder注解-->
+				<dependency>
+					<groupId>my.test.mybatis</groupId>
+					<artifactId>mybatis-generator-plugin</artifactId>
+					<version>1.0.0-SNAPSHOT</version>
 				</dependency>
 				<dependency>
 					<groupId>mysql</groupId>

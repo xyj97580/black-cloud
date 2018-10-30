@@ -10,14 +10,14 @@
         <!-- include the plugin -->
         <!--强制覆盖原xml文件-->
         <plugin type="org.mybatis.generator.plugins.UnmergeableXmlMappersPlugin"/>
-        <plugin type="com.softwareloop.mybatis.generator.plugins.LombokPlugin">
-
+        <!--<plugin type="com.softwareloop.mybatis.generator.plugins.LombokPlugin">-->
+        <plugin type="com.github.oceanc.mybatis3.generator.plugin.LombokAnnotationPlugin">
             <!-- enable annotations -->
             <property name="builder" value="true"/>
             <!-- annotation's option(boolean) -->
             <!--<property name="builder.fluent" value="true"/>-->
             <!-- annotation's option(String) -->
-            <property name="builder.builderMethodName" value="myBuilder"/>
+            <property name="builder.builderMethodName" value="myBuilder1"/>
 
         </plugin>
         <commentGenerator>
