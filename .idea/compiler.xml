@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="back-eureka" />
+        <module name="back-test" />
+        <module name="black-api" />
+        <module name="black-consumer" />
+        <module name="black-eureka" />
+        <module name="black-provid" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="back-test" target="1.8" />
+      <module name="black-api" target="1.8" />
+      <module name="black-cloud" target="1.8" />
+      <module name="black-consumer" target="1.8" />
+      <module name="black-eureka" target="1.8" />
+      <module name="black-provid" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
